@@ -1,0 +1,7 @@
+1. BasicTransform is a good candidate to move to an ECS style system.
+This is because every GameObject will have an associated transform object.
+So, we could loop through the data structure containing BasicTransform
+objects and update them all easily.
+
+2. We need to render the obejcts back-to-front so that each object is blended
+in with the objects in it's background. 
