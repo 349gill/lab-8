@@ -1,6 +1,11 @@
 #ifndef SPRITE_MANAGER_H
 #define SPRITE_MANAGER_H
 
+#include <deque>
+#include <string>
+#include <unordered_map>
+#include <utility>
+
 #include "sprite.h"
 #include <SFML/Graphics.hpp>
 
